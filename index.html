@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+
+    <title>Mini Portifolio</title>
+</head>
+<body>
+    <main class="cartao">
+        <div class="minhas-informacoes">
+            <img src="./src/imagens/mpdevw.jpg" alt="foto de perfil">
+            <h1 class="nome" style="font-family: 'VT323', monospace;">Bárbara Marques</h1>
+            <h2 class="cargo">Desenvolvedora Frontend Junior</h2>
+        </div>
+        
+        <div class="conteudo">
+            <ul class="abas">
+                <li class="aba selecionada" id="sobre-mim">
+                    <img src="./src/imagens/mb.gif" alt="icone de sobre mim">
+                </li>
+                <li class="aba" id="minhas-redes">
+                    <img src="./src/imagens/coin.gif" alt="icone de redes sociais">
+                </li>
+            </ul>
+
+            <div class="informacoes-abas">
+                <div class="informacao selecionada" id="informacao-sobre-mim">
+                    <h3 class="sub-titulo">Sobre</h3>
+
+                    <div class="descricao">
+                        <p>Olá! meu nome é Bárbara Nassar Marques Frazão, seja bem-vindo(a)!</p>
+                        <p>
+                            Sou uma pessoa que admira muita a programação desde que comecei a fazer um curso de TI.
+                            Tenho vontade de trabalhar com programação e
+                            atualmente comecei a estudar
+                            <span>HTML, CSS e JavaScript.</span> Gosto muito de ler (até demais), e
+                            passo grande parte do meu tempo livre ouvindo música.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="informacao" id="informacao-minhas-redes">
+                    <h3 class="sub-titulo">Minhas redes</h3>
+
+                    <ul class="redes-sociais">
+                        <li>
+                            <a href="https://www.canva.com/design/DAFRAdA_1uA/o5dS4QjqWXebUa4NMT5lfA/view?utm_content=DAFRAdA_1uA&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+                            target="_blank" class="curriculo">Curriculo</a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/feed/?trk=404_page"
+                            target="_blank" class="linkedin">Linkedin</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Barbara-M4rqu3s"
+                            target="_blank" class="github">GitHub</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
